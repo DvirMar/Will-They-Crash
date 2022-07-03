@@ -1,0 +1,43 @@
+.first{
+  position: fixed;
+  z-index: 5;
+  padding-left: 500px;
+}
+
+.second{
+  position: fixed;
+  z-index: -1;
+}
+
+h1 {
+  font-family: 'Times New Roman', serif;
+  color: white;
+	text-align: center;
+  animation: color-change 2s infinite;
+  z-index: 2;
+}
+
+p{
+  text-align: right;
+  text-align-last: justify;
+
+  padding-left: 325px;
+  z-index: 3;
+  position: fixed;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: rgb(32, 218, 8); }
+  100% { color: red; }
+}
+
+.crashed{
+  padding-left: 80px;
+  padding-top: 40px;
+}
+
+.no-crashed{
+  padding-left: 80px;
+  padding-top: 20px;
+}
